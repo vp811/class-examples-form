@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Week 11 Examples</title>
+
+        <meta charset="utf-8" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+
+        <!--favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" />
+
+        <!-- CSS -->
+        <link rel="stylesheet"  href="stylesheet/style.css" />
+
+        <!-- Scripts -->
+        <script type="text/javascript" src="scripts/javascript.js"></script>
+
+    </head>
+
+    <body>
+      <form name="firstform" method="" action="">
+        <div class="first-name">
+          <label for="firstname" class="label_input_wrap">First Name:</label>
+          <input type="text" name="firstname" id="firstname" required />
+        </div>
+
+        <div class="last-name">
+          <label for="lastname" class="label_input_wrap">Last Name:</label>
+          <input type="text" name="lastname" id="lastname" placeholder="ex. Smith" />
+        </div>
+
+        <div class="email">
+          <label for="email" class="label_input_wrap">Email: </label>
+          <input type="email" name="email" placeholder="test@example.com" id="email" />
+        </div>
+
+        <div class="telephone">
+          <label for="telephone" class="label_input_wrap">Telephone: </label>
+          <input type="tel" name="telephone" placeholder="555-555-5555" id="telephone" />
+        </div>
+
+        <div class="comments">
+          <label for="comments" class="label_input_wrap">Comments: </label>
+          <textarea name="comments" maxlength="1000" cols="55" rows="15" placeholder="Your Comment goes here"></textarea>
+        </div>
+
+        <!--<div class="checkbox">
+          <h3>Favorite Sport</h3>
+          <input type="checkbox" name="sports" value="baseball" id="baseball" /><label for="baseball">Baseball</label>
+          <input type="checkbox" name="sports" value="basketball" id="basketball" /><label for="basketball">Basketball</label>
+          <input type="checkbox" name="sports" value="football" id="football" /><label for="football">Football</label>
+        </div>-->
+
+        <div class="radiobutton">
+          <h3>Favorite Sport</h3>
+          <input type="radio" name="sports" value="baseball"  id="baseball"/><label for="baseball">Baseball</label>
+          <input type="radio" name="sports" value="football" id="football" /><label for="football">Football</label>
+          <input type="radio" name="sports" value="basketball" id="basketball" /><label for="basketball">Basketball </label>
+        </div>
+
+        <div class="dropdown">
+          <label for="state" class="label_input_wrap">Where do you live?</label>
+          <select name="state" id="state">
+            <option value="FL">Florida</option>
+            <option value="GA" >Georgia</option>
+            <option value="OH" selected>Ohio</option>
+            <option value="MS">Mississippi</option>
+          </select>
+        </div>
+
+        <div class="color-picker">
+          <label for="color-picker">Select your favorite color:</label>
+          <input type="color" name="favcolor" id="color-picker" value="#ff0000" />
+        </div>
+
+        <div class="date-picker">
+          <label for="birthday">Birthday</label>
+          <input type="date" name="bday" id="birthday" />
+        </div>
+
+        <div class="upload-file">
+          <label for="upload-file">Upload file</label>
+          <input type="file" name="myFile" id="upload-file" />
+        </div>
+
+        <div class="password">
+          <label for="password">Password</label>
+          <input type="password" name="pwd" id="password" maxlength="8" />
+        </div>
+
+        <div class="website">
+          <label for="website">Website</label>
+          <input type="url" name="homepage" id="website" />
+        </div>
+
+        <div class="reset">
+          <input type="reset" value="Refresh"/>
+        </div>
+
+        <div class="submit">
+          <input type="submit" value="Contact Us"/>
+        </div>
+      </form>
+
+
+    </body>
+
+</html>
